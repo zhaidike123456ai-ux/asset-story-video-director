@@ -1,0 +1,13 @@
+{
+  "story_type": "TYPE_01",
+  "name": "Healing Routine Story",
+  "name_zh": "治愈生活任务型",
+  "core": "角色认真完成一件生活中的小事，过程本身就是故事。",
+  "structure": ["小愿望", "准备", "获取材料", "行动 / 制作", "变化过程", "完成", "享受成果"],
+  "emotion_curve": ["平静", "投入", "连续视觉反馈", "满足"],
+  "rhythm": ["建立世界", "开始行动", "制作过程逐渐加快", "成果展示", "放慢收尾"],
+  "suitable_assets": ["character", "scene", "prop", "product", "environment"],
+  "strengths": ["弱冲突", "强过程", "生活仪式感", "视觉细节", "高资产复用率"],
+  "default_visual_hooks": ["材料质感特写", "有节奏的连续动作", "完成前后变化"],
+  "risk_bias": "low"
+}

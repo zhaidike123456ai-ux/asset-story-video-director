@@ -1,0 +1,13 @@
+{
+  "story_type": "TYPE_02",
+  "name": "Setback → Kindness → Reward Story",
+  "name_zh": "受挫—善意—补偿型",
+  "core": "弱小角色的微小愿望连续受挫，最终因善意获得高于最初期待的满足。",
+  "structure": ["小愿望", "第一次尝试", "被拒绝 / 失败", "再次尝试", "更大挫折", "情绪最低点", "善意出现", "愿望被满足", "奖励高于预期"],
+  "emotion_curve": ["期待", "失落", "希望", "更大失落", "最低点", "温暖", "情绪释放"],
+  "rhythm": ["希望", "第一次受挫", "再次希望", "更大受挫", "最低点", "情绪反转", "payoff", "温暖结尾"],
+  "suitable_assets": ["character", "scene", "prop", "product"],
+  "invariants": {"final_reward_greater_than_initial_expectation": true},
+  "default_visual_hooks": ["角色微表情", "愿望物的近距离展示", "超预期奖励揭示"],
+  "risk_bias": "medium"
+}
