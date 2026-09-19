@@ -1,0 +1,25 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*credential*
+*credentials*
+*token*
+*cookie*
+
+# Dreamina authentication and local provider overrides
+.dreamina_cli/
+dreamina.local.json
+*.local.json
+
+# Generated user projects and media
+projects/
+outputs/
+jobs/
