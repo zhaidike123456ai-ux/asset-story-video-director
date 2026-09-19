@@ -1,0 +1,35 @@
+{
+  "provider": "jimeng",
+  "enabled": false,
+  "executable": "REPLACE_WITH_VERIFIED_CLI",
+  "model": "REPLACE_WITH_MODEL",
+  "capabilities": {
+    "max_duration": null,
+    "supported_ratios": [],
+    "supported_resolutions": [],
+    "text_to_video": false,
+    "image_to_video": false,
+    "first_frame": false,
+    "last_frame": false,
+    "multi_image": false,
+    "audio_support": false,
+    "cancel_supported": false
+  },
+  "commands": {
+    "submit": [],
+    "status": [],
+    "download": [],
+    "cancel": []
+  },
+  "response_fields": {
+    "task_id": "task_id",
+    "status": "status",
+    "result_url": "result_url"
+  },
+  "status_map": {
+    "queued": "submitted",
+    "processing": "running",
+    "success": "succeeded",
+    "failed": "failed"
+  }
+}
