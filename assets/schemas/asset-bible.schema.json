@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Asset Bible",
+  "type": "object",
+  "required": ["schema_version", "project_id", "assets", "checks"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "project_id": {"type": "string"},
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["asset_id", "asset_type", "tier", "description", "visual_identity", "must_keep_features", "flexible_features", "possible_actions", "possible_story_functions", "relationships", "source"],
+        "properties": {
+          "asset_id": {"type": "string", "pattern": "^[a-z_]+_[0-9]{3}$"},
+          "asset_type": {"enum": ["character", "scene", "prop", "product", "environment", "style_reference", "unknown"]},
+          "tier": {"enum": ["A", "B", "C"]},
+          "description": {"type": "string"},
+          "visual_identity": {"type": "array", "items": {"type": "string"}},
+          "must_keep_features": {"type": "array", "items": {"type": "string"}},
+          "flexible_features": {"type": "array", "items": {"type": "string"}},
+          "possible_actions": {"type": "array", "items": {"type": "string"}},
+          "possible_story_functions": {"type": "array", "items": {"type": "string"}},
+          "relationships": {"type": "array"},
+          "source": {"type": "string"}
+        }
+      }
+    },
+    "checks": {"type": "object"}
+  }
+}

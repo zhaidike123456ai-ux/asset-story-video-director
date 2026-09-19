@@ -1,0 +1,6 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Story Candidate",
+  "type": "object",
+  "required": ["story_id", "title", "story_type", "one_sentence_hook", "story_summary", "character_goal", "story_structure", "emotion_curve", "visual_highlights", "ending", "required_assets", "new_assets_needed", "AI_generation_difficulty", "production_risk", "feasibility"]
+}

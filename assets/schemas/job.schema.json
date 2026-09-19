@@ -1,0 +1,6 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Generation Job",
+  "type": "object",
+  "required": ["job_id", "project_id", "story_id", "segment_id", "shot_id", "provider", "model", "prompt", "assets", "parameters", "task_id", "status", "created_at", "updated_at", "output_path", "error"]
+}

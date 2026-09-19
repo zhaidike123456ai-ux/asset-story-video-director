@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Director Plan",
+  "type": "object",
+  "required": ["story_id", "target", "treatment", "shots", "checks"],
+  "$defs": {
+    "shot": {
+      "type": "object",
+      "required": ["shot_id", "segment_id", "duration", "shot_size", "subject", "action", "environment_action", "camera", "camera_movement", "composition", "emotion_function", "story_function", "asset_ids", "sound_effect", "dialogue", "subtitle", "transition", "generation_notes"]
+    }
+  },
+  "properties": {
+    "shots": {"type": "array", "items": {"$ref": "#/$defs/shot"}}
+  }
+}
