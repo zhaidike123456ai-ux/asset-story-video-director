@@ -1,0 +1,6 @@
+interface:
+  display_name: "资产驱动 AI 故事导演"
+  short_description: "从资产理解到分镜、提示词与视频生成任务管理"
+  default_prompt: "使用 $asset-story-video-director 根据这些角色、场景和道具资产设计可制作的短视频故事。"
+policy:
+  allow_implicit_invocation: true
